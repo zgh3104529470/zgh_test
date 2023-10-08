@@ -5,6 +5,7 @@ import java.io.IOException;
 
 public class IODemo1 {
     public static void main(String[] args) throws IOException {
+
         //true代表续写开关
         FileOutputStream fos = new FileOutputStream("F:\\aaa\\ccc\\test.txt",true);
         /*fos.write(97);
